@@ -1,7 +1,9 @@
 {
     "sections": {
-        "main": "home",
-        "settings": {}
+        "main": {
+            "type": "home",
+            "settings": {}
+        }
     },
     "order": [
         "main"
