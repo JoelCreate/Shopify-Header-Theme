@@ -28,14 +28,14 @@
         "type": "color",
         "id": "background_color",
         "label": "Background Color",
-        "default": "#ffffff"        
+        "default": "#ffffff"
       },
       {
         "type": "color",
         "id": "tect_color",
         "label": "Text Color",
-        "default": "#000000"        
+        "default": "#000000"
       }
     ]
-  }  
+  }
 ]
