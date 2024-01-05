@@ -1,0 +1,9 @@
+{
+    "sections": {
+        "main": "home",
+        "settings": {}
+    },
+    "order": [
+        "main"
+    ]
+}
