@@ -1,24 +1,24 @@
 [
-    {
-        "name": "theme_info",
-        "theme_name": "Positively Splendid",
-        "theme_version": "1.0.0",
-        "theme_author": "Joel Wiesner",
-        "theme_support_url": "http://joelcodes.co",
-        "theme_documentation_url": "http://joelcodes.co"
-    },
-    {
-        "name": "Page Settings",
-        "settings": [
-            {
-                "type": "range",
-                "id": "page_width",
-                "label": "Page Width",
-                "default": 1200,
-                "min": 800,
-                "max": 1600,
-                "step": 50
-            }
-        ]    
-    }
+  {
+    "name": "theme_info",
+    "theme_name": "Positively Splendid",
+    "theme_version": "1.0.0",
+    "theme_author": "Joel Wiesner",
+    "theme_support_url": "http:\/\/joelcodes.co",
+    "theme_documentation_url": "http:\/\/joelcodes.co"
+  },
+  {
+    "name": "Page Settings",
+    "settings": [
+      {
+        "type": "range",
+        "id": "page_width",
+        "label": "Page Width",
+        "default": 1200,
+        "min": 800,
+        "max": 1600,
+        "step": 50
+      }
+    ]
+  }
 ]
