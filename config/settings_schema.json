@@ -3,5 +3,19 @@
         "theme_name": "Positively Splendid",
         "theme_version": "1.0.0",
         "theme_author": "Joel Wiesner"
+    },
+    {
+        "name": "Page Settings",
+        "settings": [
+            {
+                "type": "range",
+                "id": "page_width",
+                "label": "Page Width",
+                "default": 1200,
+                "min": 800,
+                "max": 1920,
+                "step": 50
+            }
+        ]    
     }
 ]
