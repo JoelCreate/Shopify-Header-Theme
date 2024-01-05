@@ -2,7 +2,9 @@
     "sections": {
         "main": {
             "type": "home",
-            "settings": {}
+            "settings": {
+                
+            }
         }
     },
     "order": [
