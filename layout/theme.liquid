@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Positively Splendid</title>
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+    <style>
+        :root {
+          --page-width: {{ settings.page_width| default: '1200' }};
+          // Add more CSS variables as needed
+        }
+      </style>
     {{ content_for_header }}    
 </head>
 
