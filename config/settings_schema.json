@@ -3,7 +3,9 @@
         "name": "theme_info",
         "theme_name": "Positively Splendid",
         "theme_version": "1.0.0",
-        "theme_author": "Joel Wiesner"
+        "theme_author": "Joel Wiesner",
+        "theme_support_url": "http://joelcodes.co",
+        "theme_documentation_url": "http://joelcodes.co"
     },
     {
         "name": "Page Settings",
