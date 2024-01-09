@@ -23,11 +23,19 @@
 <div class="heavder-nav-overlay"></div>
 
 <style>
-
     .header-logo {        
         max-width: {{ section.settings.logo_width }}px;
     }
 </style>
+
+<script>
+    const mobileOverlay = document.querySelector('.header-nav-overlay')
+    const mobileMenu = document.querySelector('.header-nav')
+    document.querySelector('.hamburger-menu').addEventListener("click", function(){
+        mobileMenu.toggleClass('.nav-drawer-active')  
+        mobileOverlay.toggleClass('.nav-overlay-active')
+    })
+</script>
 
 {% schema %}
     {
