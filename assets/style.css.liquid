@@ -94,26 +94,25 @@ textarea {
         background: rgba(0,0,0,0.7);
         z-index: 9;
         opacity: 0;
-        left: -100%;
-        transition: left 0s 0.4s, opacity 0.4s;
+        left: 100%;
     }
 
     .nav-overlay-active {
         left: 0;
         opacity: 1;
-        transition: left 0s, opacity 0.4s;
     }
 
    .header-nav {
+        display: block;
         position: fixed;
         top: 0;
         height: 100%;
         overflow: auto;
-        background: var(--bg-color);
+        background: /*var(--bg-color)*/ #fff;
         width: 90%;
         max-width: 300px;
         z-index: 10;
-        left: -100%;
+        left: 100%;
     }
 
     .nav-drawer-active {
