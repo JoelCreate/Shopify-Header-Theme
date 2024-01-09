@@ -65,6 +65,7 @@ textarea {
     display: flex;
     margin: 0 auto;
     font-weight: 700;
+    font-size: 1.5rem;
     text-transform: lowercase;
 }
 
@@ -84,6 +85,16 @@ textarea {
         padding: 20px 80px;
    } 
 
+   .header-nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 9;
+    }
+
    .header-nav {
         position: fixed;
         top: 0;
@@ -93,14 +104,17 @@ textarea {
         background: var(--bg-color);
         width: 90%;
         max-width: 300px;
+        z-index: 10;
     }
 
-    .header-nav-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: var(--bg-color);
+    .header-nav-item {
+        border-bottom: 1px solid var(--border-color);
     }
+
+    .header-nav-anchor {
+        display: block;
+        padding: 20px;
+        color: var(--text-color);
+    }
+
 }

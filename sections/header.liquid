@@ -12,8 +12,8 @@
 
         <ul class="header-nav">
             {% for link in section.settings.navigation.links %} 
-                <li>
-                    <a hred="{{ link.url }}">{{ link.title }}</a>
+                <li class="header-nav-item">
+                    <a class="header-nav-anchor" href="{{ link.url }}">{{ link.title }}</a>
                 </li>
             {% endfor %}
         </ul>

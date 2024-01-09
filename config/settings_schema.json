@@ -32,9 +32,15 @@
       },
       {
         "type": "color",
-        "id": "tect_color",
+        "id": "text_color",
         "label": "Text Color",
         "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "border_color",
+        "label": "Border Color",
+        "default": "#acacac"
       }
     ]
   }
