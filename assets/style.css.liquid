@@ -24,11 +24,45 @@ li {
     list-style: none;
 }
 
+button,
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    background: transparent;
+    display: none;
+}
+
 /**************
     Header
 **************/
+.header {
+    displaY: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger-menu {
+    width: 32px;
+    display: block;
+}
+
+.hamburger-menu {
+    height: 2px;
+    width: 100%;
+    background: var(--text-color);
+    display: block;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
 .header-logo {
     display: block;
+}
+
+.header-nav {
+    display: flex;
 }
 
 
