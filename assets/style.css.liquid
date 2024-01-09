@@ -63,6 +63,9 @@ textarea {
 
 .header-nav {
     display: flex;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: lowercase;
 }
 
 .header-nav a{
@@ -80,4 +83,24 @@ textarea {
    .width {
         padding: 20px 80px;
    } 
+
+   .header-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        overflow: auto;
+        background: var(--bg-color);
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .header-nav-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--bg-color);
+    }
 }
