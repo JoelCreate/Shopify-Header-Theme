@@ -29,13 +29,21 @@
 </style>
 
 <script>
-    const mobileOverlay = document.querySelector('.header-nav-overlay')
+    const hamburgerMenu = document.querySelector('.hamburger-menu')
     const mobileMenuDrawer = document.querySelector('.header-nav')
+    const mobileOverlay = document.querySelector('.header-nav-overlay')    
 
-    document.querySelector('.hamburger-menu').addEventListener("click", function(){
+    hamburgerMenu.addEventListener("click", function(){
         mobileMenuDrawer.classList.toggle('nav-active')  
         mobileOverlay.classList.toggle('nav-active')
     })
+
+    mobileOverlay.addEventListener("click", function(){
+        mobileMenuDrawer.classList.remove('nav-active')  
+        mobileOverlay.classList.remove('nav-active')
+    })
+
+
 </script>
 
 {% schema %}
