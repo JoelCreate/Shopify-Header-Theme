@@ -14,6 +14,17 @@
             {% for link in section.settings.navigation.links %} 
                 <li class="header-nav-item">
                     <a class="header-nav-anchor" href="{{ link.url }}">{{ link.title }}</a>
+
+                    {% if link.links != blank %}
+                        <ul class="header-sub">
+                            {% for child in link.links %}
+                                <li class="header-sub-items">
+                                    <a href="{{ child.url }}" class="header-sub-achor">{{ child.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+
                 </li>
             {% endfor %}
         </ul>
