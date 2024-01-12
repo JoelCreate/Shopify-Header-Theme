@@ -46,7 +46,8 @@
 <script>
     const hamburgerMenu = document.querySelector('.hamburger-menu')
     const mobileMenuDrawer = document.querySelector('.header-nav')
-    const mobileOverlay = document.querySelector('.header-nav-overlay')    
+    const mobileOverlay = document.querySelector('.header-nav-overlay') 
+    const navItems = document.querySelector('.header-nav-anchor') 
     const subMenu = document.querySelector('.header-sub')
 
     hamburgerMenu.addEventListener("click", function(){
@@ -59,11 +60,9 @@
         mobileOverlay.classList.remove('nav-active')
     })
 
-    subMenu.addEventListener("mouseover", function(){
-        subMenu.classList.toggle('show')
+    navItems.addEventListener("mouseover", function(){
+        subMenu.classList.add('show')
     })
-
-
 </script>
 
 {% schema %}
